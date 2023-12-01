@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/flexbox/toggleFlexbox.css"
+    />
+    <script type="text/javascript" src="/js/toggleFlexbox.js"></script>
+  </head>
+  <body>
+    <main>
+      <h2>Toggling a Flex Container</h2>
+      <p>
+        The container element (light pink background) has 5 child elements.
+        Press the button to toggle it between <code>display: block</code> and
+        <code>display: flex</code>.
+      </p>
+      <div class="btns">
+        <button>Toggle Flex Container</button>
+        <div class="dir">
+          <label for="ltr"
+            >left-to-right
+            <input type="radio" value="ltr" name="direction" id="ltr" checked
+          /></label>
+          <label for="rtl"
+            >right-to-left
+            <input type="radio" value="rtl" name="direction" id="rtl"
+          /></label>
+        </div>
+      </div>
+      <div class="container">
+        <div class="item">
+          <img src="/assets//cat1.png" width="100px" height="100px" />
+        </div>
+        <div class="item">
+          <img src="/assets//cat2.png" width="100px" height="100px" />
+        </div>
+        <div class="item">
+          <img src="/assets//dog.png" width="100px" height="100px" />
+        </div>
+        <div class="item">
+          <img src="/assets//rabbit.png" width="100px" height="100px" />
+        </div>
+        <div class="item">
+          <img src="/assets//cat1.png" width="100px" height="100px" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

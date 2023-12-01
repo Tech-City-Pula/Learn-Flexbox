@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/flexbox/singleJustifyContent.css"
+    />
+    <script type="text/javascript" src="/js/flexBoxSwitch.js"></script>
+  </head>
+  <body>
+    <main>
+      <h2>
+        Aligning A Single Element Along the Main Axis:<br /><code
+          >justify-content</code
+        >
+      </h2>
+      <p>
+        Note the behaviour of <code>justify-content: space-between</code> when a
+        single element is being aligned.
+      </p>
+      <div class="btns">
+        <label for="flex-start"
+          >flex-start
+          <input
+            type="radio"
+            name="justifycontent"
+            value="flex-start"
+            id="flex-start"
+            checked
+        /></label>
+        <label for="flex-end"
+          >flex-end
+          <input
+            type="radio"
+            name="justifycontent"
+            value="flex-end"
+            id="flex-end"
+        /></label>
+        <label for="center"
+          >center
+          <input type="radio" name="justifycontent" value="center" id="center"
+        /></label>
+        <label for="space-between"
+          >space-between
+          <input
+            type="radio"
+            name="justifycontent"
+            value="space-between"
+            id="space-between"
+        /></label>
+        <label for="space-around"
+          >space-around
+          <input
+            type="radio"
+            name="justifycontent"
+            value="space-around"
+            id="space-around"
+        /></label>
+      </div>
+      <div class="container">
+        <div class="item">
+          <img src="/assets//cat1.png" width="100px" height="100px" />
+        </div>
+      </div>
+      <div class="dir">
+        <label for="ltr"
+          >left-to-right
+          <input type="radio" value="ltr" name="direction" id="ltr" checked
+        /></label>
+        <label for="rtl"
+          >right-to-left
+          <input type="radio" value="rtl" name="direction" id="rtl"
+        /></label>
+      </div>
+    </main>
+  </body>
+</html>

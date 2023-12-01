@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.3em;
+  padding: 0 2em 3em;
+  line-height: 1.4;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 14px;
+  text-align: center;
+}
+
+code {
+  font-family: Consolas, monospace;
+  background: #f6c2c2;
+  padding: 1px 3px;
+}
+
+.btns {
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.dir {
+  text-align: center;
+}
+
+label {
+  margin-right: 1.3em;
+  padding: 8px;
+}
+
+.container {
+  min-height: 300px;
+  border: solid 2px;
+  margin-bottom: 1em;
+  background-color: rgba(210, 145, 188, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.auto {
+  align-items: auto;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.flex-end {
+  align-items: flex-end;
+}
+
+.center {
+  align-items: center;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.stretch {
+  align-items: stretch;
+}
+
+.item {
+  min-width: 15%;
+  background-color: rgba(210, 145, 188, 0.7);
+  min-height: 100px;
+  border: solid 2px #305077;
+  margin: 3px;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+  line-height: 1.4;
+}
